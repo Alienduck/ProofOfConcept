@@ -17,12 +17,12 @@ There are 3 endpoints for each language:
 ### How to test ?
 We can't simply use a simple request to make a benchmark, we need a real confition, so i'm using [oha](https://crates.io/crates/oha) which is a beautiful tool to create stress-test
 
-### Real-World Scenario Benchmark
+## Real-World Scenario Benchmark
 
 *Test conditions: 100 concurrent connections, 100,000 total requests processing a complex JSON payload with strict validation and data aggregation.*
 
 | Language | Framework | Requests/sec | Avg Latency | p95 Latency | p99 Latency |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Rust** | Axum | 86,730 | 1.14 ms | 1.80 ms | 2.60 ms |
-| **TypeScript** | Bun + Fastify | *TBD* | *TBD* | *TBD* | *TBD* |
-| **PHP** | 8.3 native | *TBD* | *TBD* | *TBD* | *TBD* |
+| **TypeScript** | Bun + Fastify | 14,634 | 6.82 ms | 8.30 ms | 8.97 ms |
+| **PHP** | *TBD* | *TBD* | *TBD* | *TBD* | *TBD* |
