@@ -30,7 +30,7 @@ target
 .zed/
 .vscode/
 
-
 # Added by cargo
-
 /target
+
+**/node_modules
