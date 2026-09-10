@@ -1,0 +1,11 @@
+{
+  "name": "proof_of_concept_ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "dependencies": {
+    "fastify": "^4.26.0",
+    "zod": "^3.22.0"
+  }
+}
